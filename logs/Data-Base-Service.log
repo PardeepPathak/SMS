@@ -1,0 +1,639 @@
+2022-10-04 17:30:08-Fetching config from server at : http://DESKTOP-1QTO23B.cisco.com:5056/
+2022-10-04 17:30:08-Located environment: name=Data-Base-Service, profiles=[default], label=null, version=394dec74aad90ba61cc75ecb099125cc186796d6, state=null
+2022-10-04 17:30:08-Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-file:///C:/Users/pardpath/OneDrive%20-%20Cisco/Desktop/Project%20Files/git/LocalGitRepo//file:C:\Users\pardpath\OneDrive - Cisco\Desktop\Project Files\git\LocalGitRepo\Data-Base-Service.yml'}]
+2022-10-04 17:30:08-No active profile set, falling back to default profiles: default
+2022-10-04 17:30:09-Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-04 17:30:09-Finished Spring Data repository scanning in 43 ms. Found 10 MongoDB repository interfaces.
+2022-10-04 17:30:09-BeanFactory id=85d8fde0-080c-3852-aad6-6d0c50871999
+2022-10-04 17:30:09-Tomcat initialized with port(s): 5051 (http)
+2022-10-04 17:30:09-Starting service [Tomcat]
+2022-10-04 17:30:09-Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-10-04 17:30:09-Initializing Spring embedded WebApplicationContext
+2022-10-04 17:30:09-Root WebApplicationContext: initialization completed in 974 ms
+2022-10-04 17:30:09-Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2022-10-04 17:30:10-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-10-04 17:30:10-Opened connection [connectionId{localValue:70, serverValue:72}] to localhost:27017
+2022-10-04 17:30:10-Opened connection [connectionId{localValue:69, serverValue:71}] to localhost:27017
+2022-10-04 17:30:10-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1756100}
+2022-10-04 17:30:10-Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-10-04 17:30:10-Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-10-04 17:30:10-Unable to start LiveReload server
+2022-10-04 17:30:11-Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-04 17:30:11-Eureka HTTP Client uses RestTemplate.
+2022-10-04 17:30:11-Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-04 17:30:11-Setting initial instance status as: STARTING
+2022-10-04 17:30:11-Initializing Eureka in region us-east-1
+2022-10-04 17:30:11-Resolving eureka endpoints via configuration
+2022-10-04 17:30:11-Disable delta property : false
+2022-10-04 17:30:11-Single vip registry refresh property : null
+2022-10-04 17:30:11-Force full registry fetch : false
+2022-10-04 17:30:11-Application is null : false
+2022-10-04 17:30:11-Registered Applications size is zero : true
+2022-10-04 17:30:11-Application version is -1: true
+2022-10-04 17:30:11-Getting all instance registry info from the eureka server
+2022-10-04 17:30:11-The response status is 200
+2022-10-04 17:30:11-Starting heartbeat executor: renew interval is: 30
+2022-10-04 17:30:11-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-04 17:30:11-Discovery Client initialized at timestamp 1664884811984 with initial instances count: 5
+2022-10-04 17:30:11-Registering application DATA-BASE-SERVICE with eureka with status UP
+2022-10-04 17:30:11-Saw local status change event StatusChangeEvent [timestamp=1664884811989, current=UP, previous=STARTING]
+2022-10-04 17:30:11-DiscoveryClient_DATA-BASE-SERVICE/DESKTOP-1QTO23B.cisco.com:Data-Base-Service:5051: registering service...
+2022-10-04 17:30:11-Tomcat started on port(s): 5051 (http) with context path ''
+2022-10-04 17:30:11-Updating port to 5051
+2022-10-04 17:30:12-DiscoveryClient_DATA-BASE-SERVICE/DESKTOP-1QTO23B.cisco.com:Data-Base-Service:5051 - registration status: 204
+2022-10-04 17:30:12-Started DataBaseServiceApplication in 3.73 seconds (JVM running for 7883.16)
+2022-10-04 17:30:12-Condition evaluation unchanged
+2022-10-04 17:30:35-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-04 17:30:35-Initializing Servlet 'dispatcherServlet'
+2022-10-04 17:30:35-Completed initialization in 5 ms
+2022-10-04 17:30:35-inside findByUsername()shivam@gmail.com
+2022-10-04 17:30:35-Opened connection [connectionId{localValue:71, serverValue:73}] to localhost:27017
+2022-10-04 17:30:35-inside findByUsername()User(id=632aed158faeab381c583a89, email=shivam@gmail.com, password=$2a$10$Hui6Ahakmrhtnnmx3Kyprudjwd5UwBTuaBPMXNjH/pdTTs.ytuPIO, roles=[Role(id=63285343861b87be0588cff0, name=ROLE_ADMIN)])
+2022-10-04 17:30:36-Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2022-10-04 17:30:36-Dropped 2 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information)
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785) ~[spring-web-5.3.12.jar:5.3.12]
+	at org.springframework.cloud.sleuth.zipkin2.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateWrapper.java:69) ~[spring-cloud-sleuth-zipkin-3.0.4.jar:3.0.4]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:660) ~[spring-web-5.3.12.jar:5.3.12]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.post(RestTemplateSender.java:151) ~[spring-cloud-sleuth-zipkin-3.0.4.jar:3.0.4]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:169) ~[spring-cloud-sleuth-zipkin-3.0.4.jar:3.0.4]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:159) ~[spring-cloud-sleuth-zipkin-3.0.4.jar:3.0.4]
+	at zipkin2.Call$Base.execute(Call.java:391) ~[zipkin-2.23.0.jar:na]
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299) ~[zipkin-reporter-2.16.1.jar:na]
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378) ~[zipkin-reporter-2.16.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:532) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:637) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:280) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:385) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:407) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057) ~[na:na]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.3.12.jar:5.3.12]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.3.12.jar:5.3.12]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-5.3.12.jar:5.3.12]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776) ~[spring-web-5.3.12.jar:5.3.12]
+	... 9 common frames omitted
+2022-10-04 17:30:43-inside  getAllUsers()
+2022-10-04 17:31:46-inside  getAllUsers()
+2022-10-04 17:31:47-inside  getAllUsers()
+2022-10-04 17:32:29-inside findByUsername()shivam@gmail.com
+2022-10-04 17:32:29-inside findByUsername()User(id=632aed158faeab381c583a89, email=shivam@gmail.com, password=$2a$10$Hui6Ahakmrhtnnmx3Kyprudjwd5UwBTuaBPMXNjH/pdTTs.ytuPIO, roles=[Role(id=63285343861b87be0588cff0, name=ROLE_ADMIN)])
+2022-10-04 17:34:28-Unregistering application DATA-BASE-SERVICE with eureka with status DOWN
+2022-10-04 17:34:28-Saw local status change event StatusChangeEvent [timestamp=1664885068938, current=DOWN, previous=UP]
+2022-10-04 17:34:28-DiscoveryClient_DATA-BASE-SERVICE/DESKTOP-1QTO23B.cisco.com:Data-Base-Service:5051: registering service...
+2022-10-04 17:34:28-DiscoveryClient_DATA-BASE-SERVICE/DESKTOP-1QTO23B.cisco.com:Data-Base-Service:5051 - registration status: 204
+2022-10-04 17:34:28-Closed connection [connectionId{localValue:71, serverValue:73}] to localhost:27017 because the pool has been closed.
+2022-10-04 17:34:29-Shutting down DiscoveryClient ...
+2022-10-04 17:34:32-Unregistering ...
+2022-10-04 17:34:32-DiscoveryClient_DATA-BASE-SERVICE/DESKTOP-1QTO23B.cisco.com:Data-Base-Service:5051 - deregister  status: 200
+2022-10-04 17:34:32-Completed shut down of DiscoveryClient
+2022-10-04 17:34:33-Fetching config from server at : http://DESKTOP-1QTO23B.cisco.com:5056/
+2022-10-04 17:34:33-Located environment: name=Data-Base-Service, profiles=[default], label=null, version=394dec74aad90ba61cc75ecb099125cc186796d6, state=null
+2022-10-04 17:34:33-Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-file:///C:/Users/pardpath/OneDrive%20-%20Cisco/Desktop/Project%20Files/git/LocalGitRepo//file:C:\Users\pardpath\OneDrive - Cisco\Desktop\Project Files\git\LocalGitRepo\Data-Base-Service.yml'}]
+2022-10-04 17:34:33-No active profile set, falling back to default profiles: default
+2022-10-04 17:34:33-Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-04 17:34:33-Finished Spring Data repository scanning in 42 ms. Found 10 MongoDB repository interfaces.
+2022-10-04 17:34:34-BeanFactory id=85d8fde0-080c-3852-aad6-6d0c50871999
+2022-10-04 17:34:34-Tomcat initialized with port(s): 5051 (http)
+2022-10-04 17:34:34-Starting service [Tomcat]
+2022-10-04 17:34:34-Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-10-04 17:34:34-Initializing Spring embedded WebApplicationContext
+2022-10-04 17:34:34-Root WebApplicationContext: initialization completed in 995 ms
+2022-10-04 17:34:34-Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2022-10-04 17:34:34-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-10-04 17:34:34-Opened connection [connectionId{localValue:72, serverValue:74}] to localhost:27017
+2022-10-04 17:34:34-Opened connection [connectionId{localValue:73, serverValue:75}] to localhost:27017
+2022-10-04 17:34:34-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1573500}
+2022-10-04 17:34:34-Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-10-04 17:34:34-Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-10-04 17:34:35-Unable to start LiveReload server
+2022-10-04 17:34:35-Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-04 17:34:36-Eureka HTTP Client uses RestTemplate.
+2022-10-04 17:34:36-Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-04 17:34:36-Setting initial instance status as: STARTING
+2022-10-04 17:34:36-Initializing Eureka in region us-east-1
+2022-10-04 17:34:36-Resolving eureka endpoints via configuration
+2022-10-04 17:34:36-Disable delta property : false
+2022-10-04 17:34:36-Single vip registry refresh property : null
+2022-10-04 17:34:36-Force full registry fetch : false
+2022-10-04 17:34:36-Application is null : false
+2022-10-04 17:34:36-Registered Applications size is zero : true
+2022-10-04 17:34:36-Application version is -1: true
+2022-10-04 17:34:36-Getting all instance registry info from the eureka server
+2022-10-04 17:34:36-The response status is 200
+2022-10-04 17:34:36-Starting heartbeat executor: renew interval is: 30
+2022-10-04 17:34:36-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-04 17:34:36-Discovery Client initialized at timestamp 1664885076925 with initial instances count: 6
+2022-10-04 17:34:36-Registering application DATA-BASE-SERVICE with eureka with status UP
+2022-10-04 17:34:36-Saw local status change event StatusChangeEvent [timestamp=1664885076935, current=UP, previous=STARTING]
+2022-10-04 17:34:36-DiscoveryClient_DATA-BASE-SERVICE/DESKTOP-1QTO23B.cisco.com:Data-Base-Service:5051: registering service...
+2022-10-04 17:34:36-Tomcat started on port(s): 5051 (http) with context path ''
+2022-10-04 17:34:36-Updating port to 5051
+2022-10-04 17:34:36-DiscoveryClient_DATA-BASE-SERVICE/DESKTOP-1QTO23B.cisco.com:Data-Base-Service:5051 - registration status: 204
+2022-10-04 17:34:37-Started DataBaseServiceApplication in 4.081 seconds (JVM running for 8148.135)
+2022-10-04 17:34:37-Condition evaluation unchanged
+2022-10-04 17:35:28-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-04 17:35:28-Initializing Servlet 'dispatcherServlet'
+2022-10-04 17:35:28-Completed initialization in 6 ms
+2022-10-04 17:35:28-inside findByUsername()shivam@gmail.com
+2022-10-04 17:35:28-Opened connection [connectionId{localValue:74, serverValue:76}] to localhost:27017
+2022-10-04 17:35:28-inside findByUsername()User(id=632aed158faeab381c583a89, email=shivam@gmail.com, password=$2a$10$Hui6Ahakmrhtnnmx3Kyprudjwd5UwBTuaBPMXNjH/pdTTs.ytuPIO, roles=[Role(id=63285343861b87be0588cff0, name=ROLE_ADMIN)])
+2022-10-04 17:35:29-Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2022-10-04 17:35:29-Dropped 2 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information)
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785) ~[spring-web-5.3.12.jar:5.3.12]
+	at org.springframework.cloud.sleuth.zipkin2.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateWrapper.java:69) ~[spring-cloud-sleuth-zipkin-3.0.4.jar:3.0.4]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:660) ~[spring-web-5.3.12.jar:5.3.12]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.post(RestTemplateSender.java:151) ~[spring-cloud-sleuth-zipkin-3.0.4.jar:3.0.4]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:169) ~[spring-cloud-sleuth-zipkin-3.0.4.jar:3.0.4]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:159) ~[spring-cloud-sleuth-zipkin-3.0.4.jar:3.0.4]
+	at zipkin2.Call$Base.execute(Call.java:391) ~[zipkin-2.23.0.jar:na]
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299) ~[zipkin-reporter-2.16.1.jar:na]
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378) ~[zipkin-reporter-2.16.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:532) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:637) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:280) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:385) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:407) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057) ~[na:na]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.3.12.jar:5.3.12]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.3.12.jar:5.3.12]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-5.3.12.jar:5.3.12]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776) ~[spring-web-5.3.12.jar:5.3.12]
+	... 9 common frames omitted
+2022-10-04 17:35:32-inside  getAllUsers()
+2022-10-04 17:35:39-Inside getAllSchoolData()
+2022-10-04 17:35:39-Inside getAllStudentData()
+2022-10-04 17:35:49-inside getAllTeacher()
+2022-10-04 17:35:49-Inside getAllTeacherData()
+2022-10-04 17:35:50-inside getAllTeacher()
+2022-10-04 17:35:50-Inside getAllTeacherData()
+2022-10-04 17:35:53-inside getAllTeacher()
+2022-10-04 17:35:53-Inside getAllTeacherData()
+2022-10-04 17:35:53-inside getAllTeacher()
+2022-10-04 17:35:53-Inside getAllTeacherData()
+2022-10-04 17:36:42-inside findByUsername()shivam@gmail.com
+2022-10-04 17:36:42-inside findByUsername()User(id=632aed158faeab381c583a89, email=shivam@gmail.com, password=$2a$10$Hui6Ahakmrhtnnmx3Kyprudjwd5UwBTuaBPMXNjH/pdTTs.ytuPIO, roles=[Role(id=63285343861b87be0588cff0, name=ROLE_ADMIN)])
+2022-10-04 17:39:36-Resolving eureka endpoints via configuration
+2022-10-04 17:44:36-Resolving eureka endpoints via configuration
+2022-10-04 17:49:36-Resolving eureka endpoints via configuration
+2022-10-04 17:54:36-Resolving eureka endpoints via configuration
+2022-10-04 17:54:45-inside findByUsername()shivam@gmail.com
+2022-10-04 17:54:45-inside findByUsername()User(id=632aed158faeab381c583a89, email=shivam@gmail.com, password=$2a$10$Hui6Ahakmrhtnnmx3Kyprudjwd5UwBTuaBPMXNjH/pdTTs.ytuPIO, roles=[Role(id=63285343861b87be0588cff0, name=ROLE_ADMIN)])
+2022-10-04 17:54:48-inside getAllTeacher()
+2022-10-04 17:54:48-Inside getAllTeacherData()
+2022-10-04 17:54:50-Inside getAllSchoolData()
+2022-10-04 17:54:50-Inside getAllStudentData()
+2022-10-04 17:54:51-inside getAllTeacher()
+2022-10-04 17:54:51-Inside getAllTeacherData()
+2022-10-04 17:54:53-Inside getAllSchoolData()
+2022-10-04 17:54:53-Inside getAllStudentData()
+2022-10-04 17:57:03-Inside getAllSchoolData()
+2022-10-04 17:57:03-Inside getAllStudentData()
+2022-10-04 17:57:53-inside getAllTeacher()
+2022-10-04 17:57:53-Inside getAllTeacherData()
+2022-10-04 17:58:03-inside getAllTeacher()
+2022-10-04 17:58:03-Inside getAllTeacherData()
+2022-10-04 17:58:04-inside getAllTeacher()
+2022-10-04 17:58:04-Inside getAllTeacherData()
+2022-10-04 17:59:36-Resolving eureka endpoints via configuration
+2022-10-04 18:00:28-inside findByUsername()pardeep.pathak@zensar.com
+2022-10-04 18:00:28-inside findByUsername()User(id=63345f0424573746b8920450, email=pardeep.pathak@zensar.com, password=$2a$10$zHw3cK7GAwnrsqZU3HxGeubQoGPtacmQ6sFmIsd.2lSdzMuORxgfu, roles=[Role(id=63285343861b87be0588cfee, name=ROLE_STUDENT)])
+2022-10-04 18:04:36-Resolving eureka endpoints via configuration
+2022-10-04 18:09:06-Inside getAllSchoolData()
+2022-10-04 18:09:06-Inside getAllStudentData()
+2022-10-04 18:09:35-Inside getAllSchoolData()
+2022-10-04 18:09:35-Inside getAllStudentData()
+2022-10-04 18:09:36-Inside getStudentById()63345f0424573746b8920451
+2022-10-04 18:09:36-Inside getStudentById()63345f0424573746b8920451
+2022-10-04 18:09:36-Resolving eureka endpoints via configuration
+2022-10-04 18:09:36-Inside getStudentById()Optional[Student(studentId=63345f0424573746b8920451, FirstName=Pardeep, lastName=Pathakaa, userRole=student, dob=08-10-1999, address=Batada Basohli, email=pardeep.pathak@zensar.com, password=$2a$10$hnv3cMiVRtdVXSGI/knKEO7hpIVqNTgXwAnYpOzOeYYWgAs7jfHLG, dateOfAdmission=28-09-2022)]
+2022-10-04 18:09:40-Inside getAllSchoolData()
+2022-10-04 18:09:40-Inside getAllStudentData()
+2022-10-04 18:09:40-Inside getStudentById()63345f0424573746b8920451
+2022-10-04 18:09:40-Inside getStudentById()63345f0424573746b8920451
+2022-10-04 18:09:40-Inside getStudentById()Optional[Student(studentId=63345f0424573746b8920451, FirstName=Pardeep, lastName=Pathakaa, userRole=student, dob=08-10-1999, address=Batada Basohli, email=pardeep.pathak@zensar.com, password=$2a$10$hnv3cMiVRtdVXSGI/knKEO7hpIVqNTgXwAnYpOzOeYYWgAs7jfHLG, dateOfAdmission=28-09-2022)]
+2022-10-04 18:09:40-Inside updateStudentData()Student(studentId=63345f0424573746b8920451, FirstName=Pardeep, lastName=Pathak, userRole=student, dob=08-10-1999, address=Batada Basohli, email=pardeep.pathak@zensar.com, password=$2a$10$hnv3cMiVRtdVXSGI/knKEO7hpIVqNTgXwAnYpOzOeYYWgAs7jfHLG, dateOfAdmission=28-09-2022)
+2022-10-04 18:09:40-Inside updateStudentData()Student(studentId=63345f0424573746b8920451, FirstName=Pardeep, lastName=Pathak, userRole=student, dob=08-10-1999, address=Batada Basohli, email=pardeep.pathak@zensar.com, password=$2a$10$hnv3cMiVRtdVXSGI/knKEO7hpIVqNTgXwAnYpOzOeYYWgAs7jfHLG, dateOfAdmission=28-09-2022)
+2022-10-04 18:09:43-Inside getAllSchoolData()
+2022-10-04 18:09:43-Inside getAllStudentData()
+2022-10-04 18:14:36-Resolving eureka endpoints via configuration
+2022-10-04 18:17:45-inside findByUsername()shivam@gmail.com
+2022-10-04 18:17:45-inside findByUsername()User(id=632aed158faeab381c583a89, email=shivam@gmail.com, password=$2a$10$Hui6Ahakmrhtnnmx3Kyprudjwd5UwBTuaBPMXNjH/pdTTs.ytuPIO, roles=[Role(id=63285343861b87be0588cff0, name=ROLE_ADMIN)])
+2022-10-04 18:17:48-inside getAllTeacher()
+2022-10-04 18:17:48-Inside getAllTeacherData()
+2022-10-04 18:17:49-inside getAllTeacher()
+2022-10-04 18:17:49-Inside getAllTeacherData()
+2022-10-04 18:17:54-inside  getTeacherById()633465a124573746b8920456
+2022-10-04 18:17:54-Inside getTeacherById()633465a124573746b8920456
+2022-10-04 18:17:58-inside  getTeacherById()633465a124573746b8920456
+2022-10-04 18:17:58-Inside getTeacherById()633465a124573746b8920456
+2022-10-04 18:17:58-inside getAllTeacher()
+2022-10-04 18:17:58-Inside getAllTeacherData()
+2022-10-04 18:17:58-inside updateTeacherData()Teacher(teacherId=633465a124573746b8920456, firstName=Rishav, lastName=basotraaa, UserRole=teacher, dob=08-10-1999, address=kagrode basohli, email=rishavbasotra@gmail.com, password=$2a$10$VrKhlkFa1B06inMB8tV/he6pdq8cPbG2ux.2W5hazQAjXyYydMQB6, dateOfJoining=28-09-2022)
+2022-10-04 18:17:58-Inside updateTeacherData()Teacher(teacherId=633465a124573746b8920456, firstName=Rishav, lastName=basotraaa, UserRole=teacher, dob=08-10-1999, address=kagrode basohli, email=rishavbasotra@gmail.com, password=$2a$10$VrKhlkFa1B06inMB8tV/he6pdq8cPbG2ux.2W5hazQAjXyYydMQB6, dateOfJoining=28-09-2022)
+2022-10-04 18:18:01-inside getAllTeacher()
+2022-10-04 18:18:01-Inside getAllTeacherData()
+2022-10-04 18:18:03-inside  getTeacherById()633465a124573746b8920456
+2022-10-04 18:18:03-Inside getTeacherById()633465a124573746b8920456
+2022-10-04 18:18:09-inside  getTeacherById()633465a124573746b8920456
+2022-10-04 18:18:09-Inside getTeacherById()633465a124573746b8920456
+2022-10-04 18:18:09-inside updateTeacherData()Teacher(teacherId=633465a124573746b8920456, firstName=Rishav, lastName=basotra, UserRole=teacher, dob=08-10-1999, address=kagrode basohli, email=rishavbasotra@gmail.com, password=$2a$10$VrKhlkFa1B06inMB8tV/he6pdq8cPbG2ux.2W5hazQAjXyYydMQB6, dateOfJoining=28-09-2022)
+2022-10-04 18:18:09-inside getAllTeacher()
+2022-10-04 18:18:09-Inside getAllTeacherData()
+2022-10-04 18:18:09-Inside updateTeacherData()Teacher(teacherId=633465a124573746b8920456, firstName=Rishav, lastName=basotra, UserRole=teacher, dob=08-10-1999, address=kagrode basohli, email=rishavbasotra@gmail.com, password=$2a$10$VrKhlkFa1B06inMB8tV/he6pdq8cPbG2ux.2W5hazQAjXyYydMQB6, dateOfJoining=28-09-2022)
+2022-10-04 18:18:09-Opened connection [connectionId{localValue:75, serverValue:89}] to localhost:27017
+2022-10-04 18:18:12-inside getAllTeacher()
+2022-10-04 18:18:12-Inside getAllTeacherData()
+2022-10-04 18:19:37-Resolving eureka endpoints via configuration
+2022-10-04 18:24:37-Resolving eureka endpoints via configuration
+2022-10-04 18:27:38-Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/DATA-BASE-SERVICE/DESKTOP-1QTO23B.cisco.com:Data-Base-Service:5051": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/DATA-BASE-SERVICE/DESKTOP-1QTO23B.cisco.com:Data-Base-Service:5051": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 19 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 32 more
+
+2022-10-04 18:27:38-Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/DATA-BASE-SERVICE/DESKTOP-1QTO23B.cisco.com:Data-Base-Service:5051": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-10-04 18:27:38-Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/DATA-BASE-SERVICE/DESKTOP-1QTO23B.cisco.com:Data-Base-Service:5051": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/DATA-BASE-SERVICE/DESKTOP-1QTO23B.cisco.com:Data-Base-Service:5051": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 20 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 33 more
+
+2022-10-04 18:27:38-Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/DATA-BASE-SERVICE/DESKTOP-1QTO23B.cisco.com:Data-Base-Service:5051": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-10-04 18:27:38-DiscoveryClient_DATA-BASE-SERVICE/DESKTOP-1QTO23B.cisco.com:Data-Base-Service:5051 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.16.jar:1.10.16]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.16.jar:1.10.16]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.10.16.jar:1.10.16]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.16.jar:1.10.16]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.16.jar:1.10.16]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893) ~[eureka-client-1.10.16.jar:1.10.16]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457) ~[eureka-client-1.10.16.jar:1.10.16]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+2022-10-04 18:27:38-Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:155)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1531)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1498)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 22 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 35 more
+
+2022-10-04 18:27:38-Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-10-04 18:27:38-Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:155)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1531)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1498)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 23 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 36 more
+
+2022-10-04 18:27:38-Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-10-04 18:27:38-DiscoveryClient_DATA-BASE-SERVICE/DESKTOP-1QTO23B.cisco.com:Data-Base-Service:5051 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1531)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1498)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2022-10-04 18:27:39-Application shutdown requested.
+2022-10-04 18:27:39-Unregistering application DATA-BASE-SERVICE with eureka with status DOWN
+2022-10-04 18:27:39-Saw local status change event StatusChangeEvent [timestamp=1664888259662, current=DOWN, previous=UP]
+2022-10-04 18:27:39-DiscoveryClient_DATA-BASE-SERVICE/DESKTOP-1QTO23B.cisco.com:Data-Base-Service:5051: registering service...
+2022-10-04 18:27:39-Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/DATA-BASE-SERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/DATA-BASE-SERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 22 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 35 more
+
+2022-10-04 18:27:39-Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/DATA-BASE-SERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-10-04 18:27:39-DiscoveryClient_DATA-BASE-SERVICE/DESKTOP-1QTO23B.cisco.com:Data-Base-Service:5051 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.16.jar:1.10.16]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.10.16.jar:1.10.16]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.10.16.jar:1.10.16]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.16.jar:1.10.16]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.10.16.jar:1.10.16]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876) ~[eureka-client-1.10.16.jar:1.10.16]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-1.10.16.jar:1.10.16]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.10.16.jar:1.10.16]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+2022-10-04 18:27:39-There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.16.jar:1.10.16]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.10.16.jar:1.10.16]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.10.16.jar:1.10.16]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.16.jar:1.10.16]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.10.16.jar:1.10.16]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876) ~[eureka-client-1.10.16.jar:1.10.16]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-1.10.16.jar:1.10.16]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.10.16.jar:1.10.16]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+2022-10-04 18:27:39-Stopping service [Tomcat]
+2022-10-04 18:27:39-Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-04 18:27:39-The web application [ROOT] appears to have started a thread named [cluster-ClusterId{value='633c2152c9504f16a2905428', description='null'}-localhost:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/sun.nio.ch.Net.poll(Native Method)
+ java.base@17.0.4.1/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:181)
+ java.base@17.0.4.1/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:285)
+ java.base@17.0.4.1/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309)
+ java.base@17.0.4.1/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+ java.base@17.0.4.1/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+ java.base@17.0.4.1/java.net.Socket$SocketInputStream.read(Socket.java:966)
+ app//com.mongodb.internal.connection.SocketStream.read(SocketStream.java:109)
+ app//com.mongodb.internal.connection.SocketStream.read(SocketStream.java:131)
+ app//com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:647)
+ app//com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:512)
+ app//com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:355)
+ app//com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:315)
+ app//com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:215)
+ app//com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2022-10-04 18:27:39-The web application [ROOT] appears to have started a thread named [cluster-rtt-ClusterId{value='633c2152c9504f16a2905428', description='null'}-localhost:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/java.lang.Thread.sleep(Native Method)
+ app//com.mongodb.internal.connection.DefaultServerMonitor.waitForNext(DefaultServerMonitor.java:435)
+ app//com.mongodb.internal.connection.DefaultServerMonitor.access$1300(DefaultServerMonitor.java:57)
+ app//com.mongodb.internal.connection.DefaultServerMonitor$RoundTripTimeRunnable.run(DefaultServerMonitor.java:409)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2022-10-04 18:27:39-The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2022-10-04 18:27:39-The web application [ROOT] appears to have started a thread named [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ app//zipkin2.reporter.ByteBoundedQueue.drainTo(ByteBoundedQueue.java:81)
+ app//zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:270)
+ app//zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2022-10-04 18:27:39-Closed connection [connectionId{localValue:74, serverValue:76}] to localhost:27017 because the pool has been closed.
+2022-10-04 18:27:39-Closed connection [connectionId{localValue:75, serverValue:89}] to localhost:27017 because the pool has been closed.
